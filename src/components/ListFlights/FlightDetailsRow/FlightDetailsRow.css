@@ -1,0 +1,9 @@
+/* Why !important? MUI gives priority to their own styles,
+they can be overridden with other styling ways(except straight forward CSS) */
+.plain-table-cell{
+    border-bottom: none !important;
+}
+
+.details-row{
+padding: 4px;
+}
