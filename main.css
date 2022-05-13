@@ -1,3 +1,10 @@
+.search-container{
+    margin-top: 128px !important;
+  }
+
+  .arrow{
+    margin: 16px;
+  }
 /* Why !important? MUI gives priority to their own styles,
 they can be overridden with other styling ways(except straight forward CSS) */
 .plain-table-cell{
@@ -7,3 +14,13 @@ they can be overridden with other styling ways(except straight forward CSS) */
 .details-row{
 padding: 4px;
 }
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+body{
+  background-color: #f2f2f2;
+}
+
